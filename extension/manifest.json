@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"name": "Touch-friendliness for Discord",
+	"version": "1.0",
+	"description": "Makes some things in Discord larger and easier to tap on a touch screen.",
+	"icons": {
+		//"48": "images/icon_48.png",
+		//"128": "images/icon_128.png"
+	},
+	
+	"permissions": [
+		"*://discordapp.com/channels/*"
+	],
+	
+	"content_scripts": [{
+		"matches": [
+			"*://discordapp.com/channels/*"
+		],
+		"css": [
+			"styles.css"
+		]
+	}]
+}
