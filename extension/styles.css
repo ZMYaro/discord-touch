@@ -39,12 +39,26 @@
 		justify-content: left !important;
 	}
 
+/* Search result action button container */
+.actionButtons-14P9IC,
+/* Pinned post action button container */
+.actionButtons-1sUUug {
+	margin: -4px !important;
+}
+
 /* Search result “Jump” button */
 .jumpButton-Ia2hRJ,
 /* Pinned post “Jump” button */
 .jumpButton-3DTcS_ {
 	font-size: 14px !important;
-	margin: -4px !important;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
 	padding: 6px 12px !important;
 	height: auto !important;
+}
+
+/* Pinned post unpin button */
+.closeButton-17RIVZ {
+	background-repeat: no-repeat;
+	padding: 4px 5px !important;
 }
