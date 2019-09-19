@@ -7,10 +7,19 @@
 .reactionBtn-2na4rd,
 /* Message menu button */
 .button-3Jq0g9 {
-	width: 1.5rem !important;
-	height: 1.5rem !important;
 	margin-right: 8px !important;
 }
+	/* Message emoji reaction button */
+	.reactionBtn-2na4rd,
+	/* Message menu button */
+	.button-3Jq0g9,
+	/* Message emoji reaction button icon */
+	.icon-3tPbgH,
+	/* Message menu button icon */
+	.icon-3UTRNc {
+		width: 1.5rem !important;
+		height: 1.5rem !important;
+	}
 
 /* Message menu container */
 .container-3cGP6G {
