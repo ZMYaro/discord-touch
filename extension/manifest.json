@@ -13,12 +13,12 @@
 	},
 	
 	"permissions": [
-		"*://discordapp.com/channels/*"
+		"*://discord.com/channels/*"
 	],
 	
 	"content_scripts": [{
 		"matches": [
-			"*://discordapp.com/channels/*"
+			"*://discord.com/channels/*"
 		],
 		"css": [
 			"styles.css"
