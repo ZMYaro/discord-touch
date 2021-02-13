@@ -110,3 +110,14 @@
 	width: 20px !important;
 	height: 20px !important;
 }
+
+/* Inbox channel collapse button */
+.collapseButton-2ZsEjz,
+.collapseButton-2ZsEjz svg {
+	width: 24px !important;
+	height: 24px !important;
+}
+/* Inbox channel header (make room for larger collapse button) */
+.channelHeader-3Gd2xq {
+	padding-left: 24px !important;
+}
