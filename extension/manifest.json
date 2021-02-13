@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Touch-Friendliness for Discord",
-	"version": "1.1",
+	"version": "2.0",
 	"description": "Makes some things in Discord larger and easier to tap on a touch screen.",
 	"icons": {
 		"16": "images/icon_16.png",
