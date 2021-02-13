@@ -1,73 +1,112 @@
-/* Message buttons container */
-.buttonContainer-KtQ8wc {
-	margin-bottom: -2px !important;
+/* Channel invite button icon */
+.actionIcon-PgcMM2 {
+	width: 20px !important;
+	height: 20px !important;
 }
 
-/* Message emoji reaction button */
-.reactionBtn-2na4rd,
-/* Message menu button */
-.button-3Jq0g9 {
-	margin-right: 8px !important;
+/* Message emoji reaction container */
+.reaction-1hd86g {
+	margin-bottom: 0 !important;
 }
-	/* Message emoji reaction button */
-	.reactionBtn-2na4rd,
-	/* Message menu button */
-	.button-3Jq0g9,
-	/* Message emoji reaction button icon */
-	.icon-3tPbgH,
-	/* Message menu button icon */
-	.icon-3UTRNc {
-		width: 1.5rem !important;
-		height: 1.5rem !important;
-	}
-
-/* Message menu container */
-.container-3cGP6G {
-	min-width: 6.5rem !important;
+/* Message emoji reaction contents */
+.reactionInner-15NvIl {
+	/* 24px tall at default font size. */
+	padding-top: 0.125rem !important;
+	padding-bottom: 0.125rem !important;
 }
-
-/* Right-click menu container */
-.contextMenu-HLZMGh {
-	width: auto !important;
-	min-width: 170px !important;
-	max-width: 256px !important;
+/* Message emoji reaction add button and icon */
+.reactionBtn-3N03Zj {
+	/* 24px tall at default font size with below width/height. */
+	padding: 0.125rem !important;
+}
+/* Message emoji reaction add icon */
+.reactionBtn-3N03Zj,
+.icon-2uw6mp {
+	width: 1.25rem !important;
+	height: 1.25rem !important;
+}
+/* Message emoji reaction add icon without mouseover */
+.reactions-12N0jA:not(:hover) .reactionBtn-3N03Zj {
+	visibility: visible !important;
+	opacity: 0.4 !important;
 }
 
-/* Message menu item */
-.item-2J1YMK,
-/* Right-click menu item */
-.item-1Yvehc {
-	font-size: 0.9375rem !important; /* 15px (to match the server menu) if the user's font scale is 16px. */
-	text-align: left !important;
-	margin: 0px !important;
-	padding: 10px 14px !important;
-	width: 100% !important;
+
+/* Search box text field, placeholder */
+.search-2oPWTC .DraftEditor-root .public-DraftEditor-content,
+.search-2oPWTC .DraftEditor-root .public-DraftEditorPlaceholder-root {
+	padding-top: 6px !important;
 }
-	/* Message menu item */
-	.item-2J1YMK {
-		justify-content: left !important;
-	}
+/* Search box text field container */
+.search-2oPWTC .DraftEditor-root .DraftEditor-editorContainer {
+	height: 32px !important;
+}
+/* Search box text field container container */
+.search-2oPWTC .DraftEditor-root {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+/* Search box background (yet another container) */
+.searchBar-3dMhjb {
+	height: 32px !important;
+}
+/* Search box icon */
+.searchBar-3dMhjb .icon-38sknP {
+	margin-top: 4px !important;
+}
+
+/* Search results pane tabs */
+.tab-2j5AEF,
+/* Inbox tabs */
+.header-2-Imhb .tab-ck0077 {
+	/* 32px tall */
+	height: auto !important;
+	padding: 8px 12px !important;
+	margin-right: 4px !important;
+	margin-top: 0 !important;
+}
 
 /* Search result action button container */
-.actionButtons-14P9IC,
+.buttonsContainer-7PA8hy,
 /* Pinned post action button container */
-.actionButtons-1sUUug {
-	margin: -4px !important;
+.actionButtons-1sUUug,
+/* Inbox “Jump” button positioning class */
+.jumpButton-2F6EMx {
+	right: 4px !important;
+	top: 4px !important;
 }
-
 /* Search result “Jump” button */
-.jumpButton-Ia2hRJ,
+.button-11zvza,
 /* Pinned post “Jump” button */
-.jumpButton-3DTcS_ {
+.jumpButton-3DTcS_,
+/* Inbox “Jump” button */
+.jumpButton-2dvRSC {
+	/* 32px tall. */
+	height: auto !important;
 	font-size: 14px !important;
 	margin-left: 0px !important;
 	margin-right: 0px !important;
-	padding: 6px 12px !important;
-	height: auto !important;
+	padding: 8px 12px !important;
+}
+.jumpButton-2dvRSC .size12-3cLvbJ {
+	/* Override inbox “Jump” button being 12px font. */
+	font-size: 14px;
+}
+/* Inbox unreads “Jump” button (not meant for positioning, but I am using it for this) */
+.jumpButton-3vBz5U {
+	right: -12px !important;
+	top: -12px !important;
 }
 
 /* Pinned post unpin button */
-.closeButton-17RIVZ {
-	background-repeat: no-repeat;
-	padding: 4px 5px !important;
+.actionButtons-1sUUug .button-38aScr.lookBlank-3eh9lL {
+	padding-left: 4px !important;
+	padding-right: 4px !important;
+}
+/* Pinned post unpin button icon */
+.closeIcon-2Yg8TD {
+	//background-repeat: no-repeat;
+	//padding: 4px 5px !important;
+	width: 20px !important;
+	height: 20px !important;
 }
