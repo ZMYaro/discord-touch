@@ -5,31 +5,31 @@
 }
 
 /* Message emoji reaction container */
-.reaction-2A2y9y {
+.reaction-3vwAF2 {
 	margin-bottom: 0 !important;
 }
 /* Message emoji reaction contents */
-.reactionInner-9eVHJa {
+.reactionInner-YJjOtT {
 	/* 24px tall at default font size. */
 	padding-top: 0.125rem !important;
 	padding-bottom: 0.125rem !important;
 }
-/* Message emoji reaction add button and icon */
-.reactionBtn-3_qQdk {
+/* Message emoji reaction add button */
+.reactionBtn-3I19bq {
 	/* 24px tall at default font size with below width/height. */
 	padding: 0.125rem !important;
-	margin-bottom: 0.125rem !important;
+	margin: 0 0.125rem !important;
 	/* Keep the button visible (and tappable) */
 	visibility: visible !important;
 }
-/* Message emoji reaction add icon */
-.reactionBtn-3_qQdk,
-.icon-uXAV0f {
+/* Message emoji reaction add button and icon */
+.reactionBtn-3I19bq,
+.icon-1q31jb {
 	width: 1.25rem !important;
 	height: 1.25rem !important;
 }
 /* Message emoji reaction add icon without mouseover */
-.reactions-12N0jA:not(:hover) .reactionBtn-3_qQdk {
+.reactions-3ryImn:not(:hover) .reactionBtn-3I19bq {
 	visibility: visible !important;
 	opacity: 0.4 !important;
 }
