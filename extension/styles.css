@@ -1,11 +1,15 @@
-/* Channel invite button icon */
+/* Channel invite and settings button container */
+.children-1MGS9G {
+	margin-top: 0 !important;
+}
+/* Channel invite and settings button icons */
 .actionIcon-2sw4Sl {
 	width: 20px !important;
 	height: 20px !important;
 }
 
 /* Message emoji reaction container */
-.reaction-3vwAF2 {
+.reactions-3ryImn {
 	margin-bottom: 0 !important;
 }
 /* Message emoji reaction contents */
