@@ -1,71 +1,75 @@
 /* Channel invite and settings button container */
-.children-1MGS9G {
+.children_a486f8 {
 	margin-top: 0 !important;
 }
 /* Channel invite and settings button icons */
-.actionIcon-2sw4Sl {
+.actionIcon_d679b5 {
 	width: 20px !important;
 	height: 20px !important;
 }
 
-/* Message emoji reaction container */
-.reactions-3ryImn {
+/* Message emoji reactions container */
+.reactions_b8dc93 {
+	margin-bottom: -0.25rem !important;
+}
+/* Message emoji reaction button */
+.reaction_fef95b {
 	margin-bottom: 0 !important;
 }
 /* Message emoji reaction contents */
-.reactionInner-YJjOtT {
+.reactionInner__4135b {
 	/* 24px tall at default font size. */
 	padding-top: 0.125rem !important;
 	padding-bottom: 0.125rem !important;
 }
-/* Message emoji reaction add button */
-.reactionBtn-3I19bq {
+/* Message add emoji reaction button */
+.reactionBtn_b81964 {
 	/* 24px tall at default font size with below width/height. */
 	padding: 0.125rem !important;
 	margin: 0 0.125rem !important;
 	/* Keep the button visible (and tappable) */
 	visibility: visible !important;
 }
-/* Message emoji reaction add button and icon */
-.reactionBtn-3I19bq,
-.icon-1q31jb {
+/* Message add emoji reaction button and icon */
+.reactionBtn_b81964,
+.icon__9ea62 {
 	width: 1.25rem !important;
 	height: 1.25rem !important;
 }
-/* Message emoji reaction add icon without mouseover */
-.reactions-3ryImn:not(:hover) .reactionBtn-3I19bq {
+/* Message add emoji reaction icon without mouseover */
+.reactions_b8dc93:not(:hover) .reactionBtn_b81964 {
 	visibility: visible !important;
 	opacity: 0.4 !important;
 }
 
 
 /* Search box text field, placeholder */
-.search-2Mwzzq .DraftEditor-root .public-DraftEditor-content,
-.search-2Mwzzq .DraftEditor-root .public-DraftEditorPlaceholder-root {
+.search_ac353c .DraftEditor-root .public-DraftEditor-content,
+.search_ac353c .DraftEditor-root .public-DraftEditorPlaceholder-root {
 	padding-top: 6px !important;
 }
 /* Search box text field container */
-.search-2Mwzzq .DraftEditor-root .DraftEditor-editorContainer {
+.search_ac353c .DraftEditor-root .DraftEditor-editorContainer {
 	height: 32px !important;
 }
 /* Search box text field container container */
-.search-2Mwzzq .DraftEditor-root {
+.search_ac353c .DraftEditor-root {
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
 }
 /* Search box background (yet another container) */
-.searchBar-jGtisZ {
+.searchBar_e0c60b {
 	height: 32px !important;
 }
 /* Search box icon */
-.searchBar-jGtisZ .icon-tZMHgY {
+.searchBar_e0c60b .icon__46425 {
 	margin-top: 4px !important;
 }
 
 /* Search results pane tabs */
-.item-3XjbnG,
+.item__48dda,
 /* Inbox tabs */
-.header-145e10 .tab-TRrPC8 {
+.header__28ebb .tab_a8a066 {
 	/* 32px tall */
 	height: auto !important;
 	padding: 8px 12px !important;
@@ -74,27 +78,27 @@
 }
 
 /* Search result action button container */
-.buttonsContainer-Nmgy7x,
+.buttonsContainer__96eb6,
 /* Pinned post action button container */
-.actionButtons-2mNSAB,
+.actionButtons__0ac05,
 /* Inbox mentions “Jump” button positioning class */
-.jumpButton-1ITAeq {
+.jumpButton__24ca6 {
 	right: 4px !important;
 	top: 4px !important;
 }
-
 /* Inbox unreads “Jump” button (not meant for positioning, but I am using it for this) */
-.jumpButton-2936DI {
+.jumpButton__80b53 {
 	right: -12px !important;
 	top: -12px !important;
 }
 
+
 /* Search result “Jump” button */
-.button-cfOvv-,
+.button_f8244b,
 /* Pinned post “Jump” button */
-.jumpButton-1ZwI_j,
+.jumpButton__0329d,
 /* Inbox “Jump” button */
-.jumpButton-1V_1FA {
+.jumpButton_da1ebb {
 	/* 32px tall. */
 	height: auto !important;
 	font-size: 14px !important;
@@ -102,18 +106,18 @@
 	margin-right: 0px !important;
 	padding: 8px 12px !important;
 }
-..jumpButton-1V_1FA .size12-oc4dx4 {
+.jumpButton_da1ebb .text-xs-normal__56c35 {
 	/* Override inbox “Jump” button being 12px font. */
 	font-size: 14px;
 }
 
 /* Pinned post unpin button */
-.actionButtons-2mNSAB .button-f2h6uQ.lookBlank-21BCro {
+.actionButtons__0ac05 .button_afdfd9.lookBlank__7ca0a {
 	padding-left: 4px !important;
 	padding-right: 4px !important;
 }
 /* Pinned post unpin button icon */
-.closeIcon-2IriN1 {
+.closeIcon__93269 {
 	//background-repeat: no-repeat;
 	//padding: 4px 5px !important;
 	width: 20px !important;
@@ -121,12 +125,12 @@
 }
 
 /* Inbox channel collapse button */
-.collapseButton-39-IRc,
-.collapseButton-39-IRc svg {
+.collapseButton_b18eab,
+.collapseButton_b18eab svg {
 	width: 24px !important;
 	height: 24px !important;
 }
 /* Inbox channel header (make room for larger collapse button) */
-.channelHeader-DFRX8q {
+.channelHeader__5d30c {
 	padding-left: 24px !important;
 }
