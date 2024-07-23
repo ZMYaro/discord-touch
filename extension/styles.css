@@ -1,29 +1,29 @@
 /* Channel invite and settings button container */
-.children__563f2 {
+[class*="children_"] {
 	margin-top: 0 !important;
 }
 /* Channel invite and settings button icons */
-.actionIcon_b149a2 {
+[class*="actionIcon_"] {
 	width: 20px !important;
 	height: 20px !important;
 }
 
 /* Message emoji reactions container */
-.reactions_da5b2a {
+[class*="reactions_"] {
 	margin-bottom: -0.25rem !important;
 }
 /* Message emoji reaction button */
-.reaction__4a43f {
+[class*="reaction_"] {
 	margin-bottom: 0 !important;
 }
 /* Message emoji reaction contents */
-.reactionInner_bd636d {
+[class*="reactionInner_"] {
 	/* 24px tall at default font size. */
 	padding-top: 0.125rem !important;
 	padding-bottom: 0.125rem !important;
 }
 /* Message add emoji reaction button */
-.reactionBtn__3cb2a {
+[class*="reactionBtn_"] {
 	/* 24px tall at default font size with below width/height. */
 	padding: 0.125rem !important;
 	margin: 0 0.125rem !important;
@@ -31,45 +31,45 @@
 	visibility: visible !important;
 }
 /* Message add emoji reaction button and icon */
-.reactionBtn__3cb2a,
-.icon__0f1ac {
+[class*="reactionBtn_"],
+[class*="reactionBtn_"] [class*="icon_"] {
 	width: 1.25rem !important;
 	height: 1.25rem !important;
 }
 /* Message add emoji reaction icon without mouseover */
-.reactions_da5b2a:not(:hover) .reactionBtn__3cb2a {
+[class*="reactions_"]:not(:hover) [class*="reactionBtn_"] {
 	visibility: visible !important;
 	opacity: 0.4 !important;
 }
 
 
 /* Search box text field, placeholder */
-.search_ac353c .DraftEditor-root .public-DraftEditor-content,
-.search_ac353c .DraftEditor-root .public-DraftEditorPlaceholder-root {
+[class*="search_"] .DraftEditor-root .public-DraftEditor-content,
+[class*="search_"] .DraftEditor-root .public-DraftEditorPlaceholder-root {
 	padding-top: 6px !important;
 }
 /* Search box text field container */
-.search_ac353c .DraftEditor-root .DraftEditor-editorContainer {
+[class*="search_"] .DraftEditor-root .DraftEditor-editorContainer {
 	height: 32px !important;
 }
 /* Search box text field container container */
-.search_ac353c .DraftEditor-root {
+[class*="search_"] .DraftEditor-root {
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
 }
 /* Search box background (yet another container) */
-.searchBar__5a20a {
+[class*="search_"] [class*="searchBar_"] {
 	height: 32px !important;
 }
 /* Search box icon */
-.searchBar__5a20a .icon__46425 {
+[class*="search_"] [class*="searchBar_"] > [class*="icon_"] {
 	margin-top: 4px !important;
 }
 
 /* Search results pane tabs */
-.item__48dda,
+[class*="searchHeaderTabList_"] [class*="item_"],
 /* Inbox tabs */
-.header__58a85 .tab_a8a066 {
+[class*="recentMentionsPopout_"] [class*="tab_"] {
 	/* 32px tall */
 	height: auto !important;
 	padding: 8px 12px !important;
@@ -78,27 +78,25 @@
 }
 
 /* Search result action button container */
-.buttonsContainer__22558,
+[class*="buttonsContainer_"],
 /* Pinned post action button container */
-.actionButtons_eb040c,
+[class*="actionButtons_"],
 /* Inbox mentions “Jump” button positioning class */
-.jumpButton_aab0bc {
+[class*="jumpMessageButton_"] {
 	right: 4px !important;
 	top: 4px !important;
 }
 /* Inbox unreads “Jump” button (not meant for positioning, but I am using it for this) */
-.jumpButton__1d651 {
+[data-list-item-id*="unreads_"] [class*="jumpButton_"] {
 	right: -12px !important;
 	top: -12px !important;
 }
 
 
 /* Search result “Jump” button */
-.button_ef08e7,
-/* Pinned post “Jump” button */
-.jumpButton__309d6,
-/* Inbox “Jump” button */
-.jumpButton__6c38c {
+[class*="searchResultGroup_"] [class*="button_"],
+/* Pinned post “Jump” button & Inbox “Jump” button */
+[class*="jumpButton_"] {
 	/* 32px tall. */
 	height: auto !important;
 	font-size: 14px !important;
@@ -106,31 +104,29 @@
 	margin-right: 0px !important;
 	padding: 8px 12px !important;
 }
-.jumpButton__6c38c .text-xs-normal__46d75 {
+[class*="jumpButton_"] [class*="text-xs"] {
 	/* Override inbox “Jump” button being 12px font. */
-	font-size: 14px;
+	font-size: 14px !important;
 }
 
 /* Pinned post unpin button */
-.actionButtons_eb040c .button__581d0.lookBlank_a5b4ca {
+[class*="actionButtons_"] [class*="button_"][class*="lookBlank_"] {
 	padding-left: 4px !important;
 	padding-right: 4px !important;
 }
 /* Pinned post unpin button icon */
-.closeIcon__5dce1 {
-	//background-repeat: no-repeat;
-	//padding: 4px 5px !important;
+[class*="closeIcon_"] {
 	width: 20px !important;
 	height: 20px !important;
 }
 
 /* Inbox channel collapse button */
-.collapseButton_f8165c,
-.collapseButton_f8165c svg {
+[class*="collapseButton_"],
+[class*="collapseButton_"] svg {
 	width: 24px !important;
 	height: 24px !important;
 }
 /* Inbox channel header (make room for larger collapse button) */
-.channelHeader_ea0f89 {
+[class*="channelHeader_"] {
 	padding-left: 24px !important;
 }
